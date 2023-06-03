@@ -1,0 +1,60 @@
+.header-container {
+    background-color: rgb(233, 156, 156);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+
+    input {
+        margin-bottom: 60px;
+    }
+}
+
+.listado-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 2px solid rgb(233, 156, 156);
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    input[type='button'] {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+    input[type='button']:hover {
+        background-color: #45a049;
+    }
+
+    Link {
+        color: blue;
+        text-decoration: none;
+    }
+
+    Link:hover {
+        text-decoration: underline;
+    }
+}
